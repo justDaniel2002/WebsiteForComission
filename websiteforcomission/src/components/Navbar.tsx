@@ -1,21 +1,26 @@
-import LinkButton from "../atoms/LinkButton"
-import { KeyIconPair } from "../types/types"
+import LinkButton from "../atoms/LinkButton";
+import { KeyIconPair } from "../types/types";
 
-type directions = "horizontal"|"vertical"
+type directions = "horizontal" | "vertical";
 
 type NavbarParam = {
-    direction?:directions,
-    iconLinks: KeyIconPair[],
-}
+  direction?: directions;
+  iconLinks: KeyIconPair[];
+};
 
-const Navbar = ({direction, iconLinks}:NavbarParam) => {
-    direction = direction||'vertical'
+const Navbar = ({ direction, iconLinks }: NavbarParam) => {
+  direction = direction || "vertical";
+  return (
+    <>
+      <div className={`${direction == "horizontal" ? "flex items-center" : "inline-block min-h-screen"} text-white bg-slate-900 w-[calc(7vw)] rounded-tr-xl rounded-br-xl`}>
+        {iconLinks.map((pair, index) => (
+          <div key={index}>
+            <div><LinkButton pair={pair} /></div>
+          </div>
+        ))}
+      </div>
+    </>
+  );
+};
 
-    return (<>
-    <div className={`${direction=='horizontal'||'flex'}`}>
-        {iconLinks.map((pair) => <div><LinkButton pair={pair}/></div>)}
-    </div>
-    </>)
-}
-
-export default Navbar
+export default Navbar;

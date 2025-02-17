@@ -1,23 +1,25 @@
-import { useState } from 'react'
-import './App.css'
-import { Route, Routes } from 'react-router-dom'
-import Home from './pages/Home'
+import "./App.css";
+import Home from "./pages/Home";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route errorElement={<h1>Error</h1>}>
+        <Route path="/" >
+          <Route index element={<Home />} />
+          </Route>
+      </Route>
+    ),
+    { basename: "" }
+  );
 
   return (
     <>
-    <h1>Hello</h1>
-      <div>
-        <Routes>
-          <Route path='/'>
-            <Route index element={<Home />} />
-          </Route>
-        </Routes>
-      </div>
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

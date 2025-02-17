@@ -2,18 +2,23 @@ import { KeyIconPair } from "../types/types";
 
 const navbarData:KeyIconPair[] = [
     {
-        content:"Trang chủ",
-        icon:"iconamoon:home-light",
+        content:"About me",
+        icon:"solar:cat-bold",
         link:"Home"
     },
     {
-        content:"Trang chủ",
-        icon:"iconamoon:home-light",
+        content:"Inking",
+        icon:"iconamoon:pen-fill",
         link:"Home"
     },
     {
-        content:"Trang chủ",
-        icon:"iconamoon:home-light",
+        content:"Chibi",
+        icon:"fluent:person-head-hint-16-filled",
+        link:"Home"
+    },
+    {
+        content:"Other",
+        icon:"icon-park-outline:other",
         link:"Home"
     }
 ]
