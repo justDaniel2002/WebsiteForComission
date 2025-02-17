@@ -1,7 +1,11 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import { navbarData } from '../datas/datas'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Navbar iconLinks={navbarData}/>
+    </div>
   )
 }
