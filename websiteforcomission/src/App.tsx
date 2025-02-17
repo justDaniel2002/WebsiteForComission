@@ -8,10 +8,13 @@ function App() {
 
   return (
     <>
+    <h1>Hello</h1>
       <div>
-      <Routes>
-        <Route index element={<Home />} />
-      </Routes>
+        <Routes>
+          <Route path='/'>
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
       </div>
     </>
   )
