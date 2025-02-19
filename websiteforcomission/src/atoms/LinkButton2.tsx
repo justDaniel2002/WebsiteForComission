@@ -5,34 +5,25 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 
 type LinkButtonParam = {
   pair: KeyIconPair;
+  showContent?: boolean;
 };
-const LinkButton = ({ pair }: LinkButtonParam) => {
-  const [contentState, setContentState] = useState(false);
-
-  const enterLink = () => {
-    if (!contentState) setContentState(true);
-    setTimeout(() => {
-      setContentState(false);
-    }, 3000);
-  };
+const LinkButton2 = ({ pair, showContent }: LinkButtonParam) => {
+  
   return (
     <>
       <Link
-        onMouseEnter={enterLink}
         to={pair.link}
         className="my-5 mx-7 flex items-center"
       >
-        <div className="">
+        <div className="w-2/3">
           <Icon
             icon={`${pair.icon}`}
-            className={`
-                md:transition-all md:duration-500 md:ease-in-out
-            ${contentState ? "md:-translate-x-[2.5vh] md:text-xl" : "md:translate-x-[2.5vh] md:text-6xl sm:text-2xl"}`}
+            className={``}
           />
         </div>
         <div
           className={`inline-block transition-all duration-500 ease-in-out w-3/5 text-sm font-medium
-                    ${contentState
+                    ${showContent
               ? "opacity-100 translate-x-0"
               : "opacity-0 -translate-x-5"
             }`}
@@ -44,4 +35,4 @@ const LinkButton = ({ pair }: LinkButtonParam) => {
   );
 };
 
-export default LinkButton;
+export default LinkButton2;
