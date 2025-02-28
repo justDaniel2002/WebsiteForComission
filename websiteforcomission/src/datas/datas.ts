@@ -23,4 +23,10 @@ const navbarData:KeyIconPair[] = [
     }
 ]
 
-export {navbarData}
+const openMenu:KeyIconPair = {
+    content:"Menu",
+    icon:"ic:round-menu",
+    link:"#"
+}
+
+export {navbarData, openMenu}

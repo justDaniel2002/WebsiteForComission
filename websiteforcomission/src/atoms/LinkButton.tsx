@@ -20,24 +20,27 @@ const LinkButton = ({ pair }: LinkButtonParam) => {
       <Link
         onMouseEnter={enterLink}
         to={pair.link}
-        className="my-5 mx-7 flex items-center"
+        className=""
       >
-        <div className="">
+        <div className={`flex items-center
+          ${contentState&&'lg:text-blue-500'}`}>
           <Icon
             icon={`${pair.icon}`}
-            className={`
-                md:transition-all md:duration-500 md:ease-in-out
-            ${contentState ? "md:-translate-x-[2.5vh] md:text-xl" : "md:translate-x-[2.5vh] md:text-6xl sm:text-2xl"}`}
-          />
-        </div>
-        <div
-          className={`inline-block transition-all duration-500 ease-in-out w-3/5 text-sm font-medium
-                    ${contentState
-              ? "opacity-100 translate-x-0"
-              : "opacity-0 -translate-x-5"
+            className={`text-[30px] 
+            transition-all duration-300 ease-in-out
+            ${contentState ? 'lg:-translate-x-7 lg:text-[35px]'
+              : 'lg:text-[50px]'
             }`}
-        >
-          {pair.content}
+          />
+          <span className={`
+              opacity-0 w-0
+              text-[20px] font-medium
+              transition-all duration-300 ease-in-out
+              ${contentState && 'lg:opacity-100'}
+          `}
+          >
+            {pair.content}
+          </span>
         </div>
       </Link>
     </>

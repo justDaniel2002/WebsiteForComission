@@ -1,22 +1,23 @@
 import LinkButton from "../atoms/LinkButton";
 import { KeyIconPair } from "../types/types";
-import { isMobile } from "../joital/ReponsiveAtom";
+//import { isMobile } from "../joital/ReponsiveAtom";
 import LinkButton2 from "../atoms/LinkButton2";
 import { useState } from "react";
-import IconButton from "../atoms/IconButtion";
-import { useAtom } from "jotai";
+//import { useAtom } from "jotai";
+import { openMenu } from "../datas/datas";
 
 type directions = "horizontal" | "vertical";
 
 type NavbarParam = {
   direction?: directions;
   iconLinks: KeyIconPair[];
+  absolute?: boolean
 };
 
-const Navbar = ({ direction, iconLinks }: NavbarParam) => {
+const Navbar = ({ direction, iconLinks, absolute }: NavbarParam) => {
   direction = direction || "vertical";
 
-  const [mob, setMob] = useAtom(isMobile);
+  //const [mob, setMob] = useAtom(isMobile);
   const [showContent, setShowContent] = useState(false)
 
   const explore = () => {
@@ -24,26 +25,36 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
   }
   return (
     <>
-      <div className={`${direction == "horizontal" ? "flex items-center"
-        : "inline-block min-h-screen"} text-white bg-slate-900 ${showContent?'w-[calc(15vw+10px)]':'w-[calc(7vw+10px)]'} rounded-tr-xl rounded-br-xl`}>
-
-        <div className={`md:text-6xl pl-[15vh]`}><IconButton iconKey="material-symbols:menu" action={explore}/></div>
-
-        {mob ? <>
-          {iconLinks.map((pair, index) => (
-            <div className={`md:text-6xl pl-[15vh]`} key={index}>
-              <div><LinkButton2 pair={pair} showContent={showContent}/></div>
+      <div className={`min-h-screen bg-yellow-500
+            lg:bg-white
+            ${showContent?'w-[50vh]':'w-[10vh]'} 
+            lg:w-[15vh] 
+            transition-all duration-300 ease-in-out
+            opacity-70
+            lg:opacity-80
+            ${absolute||'absolute z-90'}`}>
+        <div className={ `flex
+            mx-7
+            my-5
+            lg:hidden
+            transition-all duration-300 ease-in-out`}
+            onClick={() => explore()}>
+          <LinkButton2 pair={openMenu} />
+        </div>
+        {iconLinks.map((pair, index) => (
+          <div className={``} key={index}>
+            <div className={`flex 
+            mx-7
+            my-5
+            lg:my-15
+            lg:mx-10
+            transition-all duration-300 ease-in-out`}>
+              {showContent?
+              <LinkButton2 pair={pair} showContent={showContent}/>
+              :<LinkButton pair={pair} />}
             </div>
-          ))}
-        </>
-          :
-          <>
-            {iconLinks.map((pair, index) => (
-              <div className={`flex pl-[15vh]`} key={index}>
-                <div><LinkButton pair={pair} /></div>
-              </div>
-            ))}
-          </>}
+          </div>
+        ))}
       </div>
     </>
   );

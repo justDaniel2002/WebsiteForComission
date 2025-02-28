@@ -5,6 +5,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import { isMobile } from "./joital/ReponsiveAtom";
 import { useEffect } from "react";
 import { useAtom } from "jotai";
+import Layout from "./layouts/Layout";
 
 function App() {
   const [mob, setMob] = useAtom(isMobile);
@@ -17,7 +18,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route errorElement={<h1>Error</h1>}>
-        <Route path="/" >
+        <Route path="/" element={<Layout />} >
           <Route index element={<Home />} />
           </Route>
       </Route>
