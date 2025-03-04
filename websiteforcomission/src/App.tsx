@@ -13,14 +13,15 @@ function App() {
 
   useEffect(() => {
     setMob(isMediaMobile)
-  },[isMediaMobile])
+  }, [isMediaMobile])
 
+  console.log(mob)
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route errorElement={<h1>Error</h1>}>
         <Route path="/" element={<Layout />} >
           <Route index element={<Home />} />
-          </Route>
+        </Route>
       </Route>
     ),
     { basename: "" }
@@ -28,7 +29,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <div>
+        <RouterProvider router={router} />
+      </div>
     </>
   );
 }

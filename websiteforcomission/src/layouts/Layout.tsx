@@ -6,11 +6,14 @@ import Banner from "../components/Banner"
 const Layout = () => {
 
     return <>
-        <div className="flex">
+        <div className="flex bgStart">
             <Navbar iconLinks={navbarData} />
             <div className="w-full">
                 <Banner />
-                <Outlet />
+                <div className="px-[12vw]
+                lg:px-[10vw]">
+                    <Outlet />
+                </div>
             </div>
         </div>
 

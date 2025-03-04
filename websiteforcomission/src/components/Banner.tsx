@@ -1,12 +1,13 @@
 import { useEffect } from "react";
 import { snowflake } from "../datas/images";
+import { Icon } from "@iconify/react/dist/iconify.js";
 
 
 const Banner = () => {
 
     useEffect(() => {
         setInterval(spawnImage, 1000);
-    },[])
+    }, [])
 
     function spawnImage() {
         console.log("spawing snow")
@@ -37,18 +38,30 @@ const Banner = () => {
     return <>
         <div className="flex flex-col items-center">
             <div className="lg:h-[40px] w-full"></div>
-            <div className="bg-[url('banners/banner.jpg')] bg-cover bg-center w-full h-[40vh]
+            <div className="bg-[url('banners/banner.jpg')] invisible bg-cover bg-center w-full h-[40vh]
         lg:h-[70vh]
         shadow-[inset_0_-100px_100px_rgba(0,0,0,0.5)]
         lg:w-[95%]
+        bannerAni
         ">
                 <div id="snowflakeContainer" className="absolute z-0 opacity-40 bg-blue-950 h-[inherit] w-[inherit] z-0">
 
                 </div>
-                <div className="absolute flex flex-col justify-end text-white z-10 h-[inherit] px-[13vh] pb-[20px]">
-                    <div className="text-[7vh]
-                    lg:text-[10vh]">Smol Lazuli</div>
-                    <div>Thank you for supporting!</div>
+                <div className="absolute flex flex-col justify-end text-white z-10 h-[inherit] px-[5vw] pb-[20px]">
+                    <div className="text-[7vh] mb-[15px]
+                    lg:mb-[20px]
+                    lg:text-[10vh]
+                    kaushan-script-regular">Smol Lazuli</div>
+                    <div className="font-thin text-[2.7vh] mb-[20px]
+                    lg:mb-[30px]
+                    ">Thank you for supporting!</div>
+                    <div className="flex justify-between items-center text-white mb-[10px]
+                    lg:mb-[20px]
+                    text-[4vh] w-[17vh]">
+                        <Icon icon="ic:baseline-facebook" />
+                        <Icon icon="lets-icons:insta" />
+                        <Icon icon="prime:twitter" />
+                    </div>
                 </div>
             </div>
         </div>

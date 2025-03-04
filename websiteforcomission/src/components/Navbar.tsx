@@ -14,7 +14,7 @@ type NavbarParam = {
   absolute?: boolean
 };
 
-const Navbar = ({ direction, iconLinks, absolute }: NavbarParam) => {
+const Navbar = ({ direction, iconLinks }: NavbarParam) => {
   direction = direction || "vertical";
 
   //const [mob, setMob] = useAtom(isMobile);
@@ -25,19 +25,18 @@ const Navbar = ({ direction, iconLinks, absolute }: NavbarParam) => {
   }
   return (
     <>
-      <div className={`min-h-screen bg-yellow-500
+      <div className={`h-screen sticky top-0 bg-yellow-500
             lg:bg-white
-            ${showContent?'w-[50vh]':'w-[10vh]'} 
-            lg:w-[15vh] 
+            ${showContent?'w-[40vw]':'w-[11vw]'} 
+            lg:w-[6vw] 
             transition-all duration-300 ease-in-out
-            opacity-70
-            lg:opacity-80
-            ${absolute||'absolute z-90'}`}>
+            navStart
+            z-90`}>
         <div className={ `flex
             mx-7
             my-5
             lg:hidden
-            transition-all duration-300 ease-in-out`}
+            transition-all duration-300 ease-in-out iconStart`}
             onClick={() => explore()}>
           <LinkButton2 pair={openMenu} />
         </div>
@@ -48,7 +47,7 @@ const Navbar = ({ direction, iconLinks, absolute }: NavbarParam) => {
             my-5
             lg:my-15
             lg:mx-10
-            transition-all duration-300 ease-in-out`}>
+            transition-all duration-300 ease-in-out iconStart`}>
               {showContent?
               <LinkButton2 pair={pair} showContent={showContent}/>
               :<LinkButton pair={pair} />}
