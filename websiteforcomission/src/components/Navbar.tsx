@@ -25,7 +25,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
   }
   return (
     <>
-      <div className={`h-screen sticky top-0 bg-yellow-500
+      <div className={`h-screen sticky top-0 bg-transparent
             lg:bg-white
             ${showContent?'w-[40vw]':'w-[50px]'} 
             lg:w-[6vw] 
