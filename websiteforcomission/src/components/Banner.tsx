@@ -60,7 +60,7 @@ const Banner = () => {
                         <Icon icon="prime:twitter" />
                     </div>
                 </div>
-                <div id="snowflakeContainer" className=" z-0 opacity-40 bg-blue-950 h-[inherit] w-full z-0">
+                <div id="snowflakeContainer" className="opacity-40 bg-blue-950 h-[inherit] w-full z-0">
 
                 </div>
                 
