@@ -33,7 +33,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
             navStart
             z-90`}>
         <div className={ `flex
-            mx-7
+            mx-[18px]
             my-5
             lg:hidden
             transition-all duration-300 ease-in-out iconStart`}
@@ -43,7 +43,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
         {iconLinks.map((pair, index) => (
           <div className={``} key={index}>
             <div className={`flex 
-            mx-7
+            mx-[18px]
             my-5
             lg:my-15
             lg:mx-10

@@ -26,17 +26,17 @@ const LinkButton = ({ pair }: LinkButtonParam) => {
           ${contentState&&'lg:text-blue-500'}`}>
           <Icon
             icon={`${pair.icon}`}
-            className={`text-[30px] 
+            className={`text-[20px] 
             transition-all duration-300 ease-in-out
-            ${contentState ? 'lg:-translate-x-7 lg:text-[35px]'
-              : 'lg:text-[50px]'
+            ${contentState ? 'lg:-translate-x-7 lg:text-[25px]'
+              : 'lg:text-[30px]'
             }`}
           />
           <span className={`
               opacity-0 w-0
-              text-[20px] font-medium
+              text-[15px] font-medium
               transition-all duration-300 ease-in-out
-              ${contentState && 'lg:opacity-100'}
+              ${contentState && 'lg:opacity-100 lg:-translate-x-2'}
           `}
           >
             {pair.content}

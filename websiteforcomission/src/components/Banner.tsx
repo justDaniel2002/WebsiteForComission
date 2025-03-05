@@ -38,7 +38,7 @@ const Banner = () => {
     return <>
         <div className="flex flex-col items-center">
             <div className="lg:h-[40px] w-full"></div>
-            <div className="bg-[url('banners/banner.jpg')] invisible bg-cover bg-center w-full h-[40vh]
+            <div className="bg-[url('/banners/banner.jpg')] invisible bg-cover bg-center w-full h-[40vh]
         lg:h-[70vh]
         shadow-[inset_0_-100px_100px_rgba(0,0,0,0.5)]
         lg:w-[95%]
