@@ -28,7 +28,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
       <div className={`h-screen top-0 fixed
             lg:sticky
             lg:bg-white
-            ${showContent ? 'bg-blue-500' : 'bg-transparent'}
+            ${showContent ? 'bg-blue-900' : 'bg-transparent'}
             ${showContent && 'w-[30vw]'} 
             lg:w-[6vw] 
             transition-all duration-300 ease-in-out
@@ -38,7 +38,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
             mx-[15px]
             my-5
             lg:hidden
-            ${showContent ? 'text-white':'text-blue-500'}
+            ${showContent ? 'text-white':'text-blue-900'}
             transition-all duration-300 ease-in-out iconStart`}
           onClick={() => explore()}>
           <LinkButton2 pair={openMenu} />

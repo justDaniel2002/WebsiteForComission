@@ -20,7 +20,7 @@ const LinkButton2 = ({ pair, showContent }: LinkButtonParam) => {
           transition-all duration-300 ease-in-out">
           <Icon
             icon={`${pair.icon}`}
-            className={`text-[20px] 
+            className={`text-[30px] 
             lg:text-[30px]`}
           />
           {showContent &&

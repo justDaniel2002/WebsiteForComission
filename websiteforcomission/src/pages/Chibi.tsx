@@ -11,7 +11,7 @@ export default function Chibi() {
 
     return (
         <div>
-            <div className="my-[30px] text-center text-[20px] tracking-wider">• THANH TOÁN</div>
+            <div className="my-[30px] text-center text-[20px] tracking-wider">• THANH TOÁN (TẠM ĐÓNG)</div>
 
             <div className="lg:text-[16px]
 mb-[25px]">
