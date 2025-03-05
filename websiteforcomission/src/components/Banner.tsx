@@ -50,11 +50,14 @@ const Banner = () => {
                     lg:text-[10vh]
                     kaushan-script-regular">Smol Lazuli</div>
                     <div className="font-thin text-[2vh] mb-[15px]
+                    lg:text-[3vh]
                     lg:mb-[30px]
                     ">Thank you for supporting!</div>
                     <div className="flex justify-between items-center text-white mb-[5px]
                     lg:mb-[20px]
-                    text-[3vh] w-[17vh]">
+                    text-[3vh]
+                    w-[12vh] 
+                    lg:w-[17vh]">
                         <a target="_blank" href={'https://www.facebook.com/yunshen0208'}><Icon icon="ic:baseline-facebook" /></a>
                         <a target="_blank" href={'https://www.instagram.com/zunxennn/'}><Icon icon="lets-icons:insta" /></a>
                         <a target="_blank" href={'https://x.com/zunxennn?s=21'}><Icon icon="prime:twitter" /></a>
