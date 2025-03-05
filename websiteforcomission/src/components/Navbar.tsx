@@ -27,13 +27,13 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
     <>
       <div className={`h-screen sticky top-0 bg-yellow-500
             lg:bg-white
-            ${showContent?'w-[40vw]':'w-[11vw]'} 
+            ${showContent?'w-[40vw]':'w-[50px]'} 
             lg:w-[6vw] 
             transition-all duration-300 ease-in-out
             navStart
             z-90`}>
         <div className={ `flex
-            mx-[18px]
+            mx-[15px]
             my-5
             lg:hidden
             transition-all duration-300 ease-in-out iconStart`}
@@ -43,7 +43,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
         {iconLinks.map((pair, index) => (
           <div className={``} key={index}>
             <div className={`flex 
-            mx-[18px]
+            mx-[15px]
             my-5
             lg:my-15
             lg:mx-10

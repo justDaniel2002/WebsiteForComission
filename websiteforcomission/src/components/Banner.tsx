@@ -37,17 +37,14 @@ const Banner = () => {
 
     return <>
         <div className="flex flex-col items-center">
-            <div className="lg:h-[40px] w-full"></div>
+            <div className="lg:h-[40px]"></div>
             <div className="bg-[url('/banners/banner.jpg')] invisible bg-cover bg-center w-full h-[40vh]
         lg:h-[70vh]
         shadow-[inset_0_-100px_100px_rgba(0,0,0,0.5)]
         lg:w-[95%]
         bannerAni
         ">
-                <div id="snowflakeContainer" className="absolute z-0 opacity-40 bg-blue-950 h-[inherit] w-[inherit] z-0">
-
-                </div>
-                <div className="absolute flex flex-col justify-end text-white z-10 h-[inherit] px-[5vw] pb-[20px]">
+            <div className="absolute flex flex-col justify-end text-white z-10 h-[inherit] px-[5vw] pb-[20px]">
                     <div className="text-[7vh] mb-[15px]
                     lg:mb-[20px]
                     lg:text-[10vh]
@@ -63,6 +60,10 @@ const Banner = () => {
                         <Icon icon="prime:twitter" />
                     </div>
                 </div>
+                <div id="snowflakeContainer" className=" z-0 opacity-40 bg-blue-950 h-[inherit] w-full z-0">
+
+                </div>
+                
             </div>
         </div>
     </>

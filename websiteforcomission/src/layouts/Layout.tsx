@@ -11,7 +11,7 @@ const Layout = () => {
             <div className="w-full">
                 <Banner />
                 <div className="px-[12vw]
-                lg:px-[10vw]">
+                xl:px-[10vw]">
                     <Outlet />
                 </div>
             </div>
