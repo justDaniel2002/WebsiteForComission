@@ -45,16 +45,16 @@ const Banner = () => {
         bannerAni
         ">
             <div className="absolute flex flex-col justify-end text-white z-10 h-[inherit] px-[5vw] pb-[20px]">
-                    <div className="text-[5vh] mb-[10px]
+                    <div className="text-[4vh] mb-[10px]
                     lg:mb-[20px]
                     lg:text-[10vh]
                     kaushan-script-regular">Smol Lazuli</div>
-                    <div className="font-thin text-[2.7vh] mb-[15px]
+                    <div className="font-thin text-[2vh] mb-[15px]
                     lg:mb-[30px]
                     ">Thank you for supporting!</div>
                     <div className="flex justify-between items-center text-white mb-[5px]
                     lg:mb-[20px]
-                    text-[4vh] w-[17vh]">
+                    text-[3vh] w-[17vh]">
                         <a target="_blank" href={'https://www.facebook.com/yunshen0208'}><Icon icon="ic:baseline-facebook" /></a>
                         <a target="_blank" href={'https://www.instagram.com/zunxennn/'}><Icon icon="lets-icons:insta" /></a>
                         <a target="_blank" href={'https://x.com/zunxennn?s=21'}><Icon icon="prime:twitter" /></a>
