@@ -25,32 +25,39 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
   }
   return (
     <>
-      <div className={`h-screen sticky top-0 bg-transparent
+      <div className={`h-screen top-0 fixed
+            lg:sticky
             lg:bg-white
-            ${showContent?'w-[40vw]':'w-[50px]'} 
+            ${showContent ? 'bg-blue-500' : 'bg-transparent'}
+            ${showContent && 'w-[30vw]'} 
             lg:w-[6vw] 
             transition-all duration-300 ease-in-out
             navStart
             z-90`}>
-        <div className={ `flex
+        <div className={`flex
             mx-[15px]
             my-5
             lg:hidden
+            ${showContent ? 'text-white':'text-blue-500'}
             transition-all duration-300 ease-in-out iconStart`}
-            onClick={() => explore()}>
+          onClick={() => explore()}>
           <LinkButton2 pair={openMenu} />
         </div>
         {iconLinks.map((pair, index) => (
           <div className={``} key={index}>
-            <div className={`flex 
+            <div className={` 
             mx-[15px]
             my-5
+            ${showContent ? 'flex' : 'hidden'}
+            lg:flex
             lg:my-15
             lg:mx-10
+            text-white
+            lg:text-black
             transition-all duration-300 ease-in-out iconStart`}>
-              {showContent?
-              <LinkButton2 pair={pair} showContent={showContent}/>
-              :<LinkButton pair={pair} />}
+              {showContent ?
+                <div onClick={() => setShowContent(!showContent)}><LinkButton2 pair={pair} showContent={showContent} /></div>
+                : <LinkButton pair={pair} />}
             </div>
           </div>
         ))}
