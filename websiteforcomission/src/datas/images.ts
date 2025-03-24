@@ -12,6 +12,9 @@ import inkingImg9 from '../assets/inkings/InkingImg9.jpg'
 import inkingImg10 from '../assets/inkings/InkingImg10.jpg'
 import inkingImg11 from '../assets/inkings/InkingImg11.jpg'
 import inkingImg12 from '../assets/inkings/InkingImg12.jpg'
+import inkingImg13 from '../assets/inkings/InkingImg13.jpg'
+import inkingImg14 from '../assets/inkings/InkingImg14.jpg'
+
 
 
 const banner = bannerImage
@@ -29,6 +32,8 @@ const inkingimg9 = inkingImg9
 const inkingimg10 = inkingImg10
 const inkingimg11 = inkingImg11
 const inkingimg12 = inkingImg12
+const inkingimg13 = inkingImg13
+const inkingimg14 = inkingImg14
 
 
 export {banner, snowflake,
@@ -44,4 +49,6 @@ export {banner, snowflake,
     inkingimg10,
     inkingimg11,
     inkingimg12,
+    inkingimg13,
+    inkingimg14
 }

@@ -11,32 +11,12 @@ export default function Inking() {
 
     return (
         <div>
-            <div className="my-[30px] text-center text-[20px] tracking-wider">• THANH TOÁN</div>
-
-            <div className="lg:text-[16px]
-mb-[25px]">
-                + Đơn vị tiền tệ là VNĐ. Mình chỉ nhận thanh toán qua tài khoản ngân hàng.<br />
-                <br />
-                + Thanh toán tối thiểu 50% sau khi chốt sketch idea sơ bộ. (Trình tự: Sketch idea - Sketch details - Lineart - Full)<br />
-                <br />
-                + Nếu huỷ comm ngay sau khi có sketch idea: Thanh toán cho mình 25% tổng comm và mình gửi bạn tiến độ đã làm được.<br />
-                <br />
-                + Nếu huỷ comm khi đang hoặc đã sketch details:<br />
-                TH1 (Đã thanh toán 50%): Mình sẽ gửi tiến độ đã làm được cho bạn và không refund.<br />
-                TH2 (Thanh toán nhiều hơn 50%): Mình sẽ refund lại số tiền dư ra so với 50% tổng comm và gửi bạn tiến độ đã làm được.<br />
-                <br />
-                + Thanh toán nốt số còn lại sau khi chốt lineart.<br />
-                <br />
-                <span className="font-bold">+ Lưu ý:</span> Khi đã có lineart mà muốn huỷ com thì vẫn phải thanh toán full tổng com, mình sẽ không refund kể từ bước lineart.<br />
-            </div>
-
-            <div className="w-full border-b-2 border-black"></div>
 
             <div className="my-[30px] text-center text-[20px] tracking-wider">BẢNG GIÁ</div>
 
             {/* Bảng giá */}
-            <div className="m-auto grid grid-cols-2 mb-[60px] text-[14px] w-[250px]
-            lg:w-[350px]
+            <div className="m-auto grid grid-cols-2 mb-[60px] text-[14px] w-[350px]
+            lg:w-[450px]
             lg:text-[20px]">
                 <div className="border-b-2 pb-4 text-center border-black font-medium">Type</div>
                 <div className="border-b-2 pb-4 text-center border-black font-medium">Price</div>
