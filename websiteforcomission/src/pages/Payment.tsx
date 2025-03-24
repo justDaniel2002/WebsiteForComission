@@ -9,7 +9,7 @@ export default function Payment() {
     }, []);
 
     return (
-        <div>
+        <div className="text-justify">
             <div className="text-center text-[20px]
       lg:text-[30px] 
       my-[20px]">• THANH TOÁN</div>

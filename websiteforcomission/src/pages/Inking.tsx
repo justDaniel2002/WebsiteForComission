@@ -15,7 +15,7 @@ export default function Inking() {
             <div className="my-[30px] text-center text-[20px] tracking-wider">BẢNG GIÁ</div>
 
             {/* Bảng giá */}
-            <div className="m-auto grid grid-cols-2 mb-[60px] text-[14px] w-[350px]
+            <div className="m-auto grid grid-cols-2 mb-[60px] text-[12px] w-[300px]
             lg:w-[450px]
             lg:text-[20px]">
                 <div className="border-b-2 pb-4 text-center border-black font-medium">Type</div>
