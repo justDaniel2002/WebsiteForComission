@@ -8,7 +8,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="text-justify">
       <div className="text-center text-[30px]
       lg:text-[40px] 
       my-[20px]">• T.O.S</div>
