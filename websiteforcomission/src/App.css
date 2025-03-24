@@ -30,6 +30,79 @@
     font-style: normal;
 }
 
+
+.cinzel-100 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.cinzel-300 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.cinzel-500 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cinzel-700 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cinzel-900 {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lunasima-regular {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lunasima-bold {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-bold {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lunasima-italic {
+    font-family: "Lunasima", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-family: "Lunasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 @keyframes bannerAppear {
     0% {
         opacity: 0;

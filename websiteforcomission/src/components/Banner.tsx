@@ -48,7 +48,7 @@ const Banner = () => {
                     <div className="text-[4vh] mb-[10px]
                     lg:mb-[20px]
                     lg:text-[10vh]
-                    kaushan-script-regular">Smol Lazuli</div>
+                    cinzel-700">Smol Lazuli</div>
                     <div className="font-thin text-[2vh] mb-[15px]
                     lg:text-[3vh]
                     lg:mb-[30px]

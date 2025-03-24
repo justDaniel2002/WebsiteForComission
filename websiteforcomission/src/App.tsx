@@ -8,6 +8,7 @@ import { useAtom } from "jotai";
 import Layout from "./layouts/Layout";
 import Inking from "./pages/Inking";
 import Chibi from "./pages/Chibi";
+import Payment from "./pages/Payment";
 
 function App() {
   const [mob, setMob] = useAtom(isMobile);
@@ -25,6 +26,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="inking" element={<Inking />} />
           <Route path="chibi" element={<Chibi />} />
+          <Route path="payment" element={<Payment />} />
         </Route>
       </Route>
     ),
