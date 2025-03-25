@@ -25,13 +25,11 @@ export default function Inking() {
                     <div className="text-center font-light border-b p-2">{price.price}</div></>)}
             </div>
 
-            <div className="border-b w-full"></div>
-
             <div className="my-[30px] text-center text-[20px] tracking-wider">THÊM BỘ PHẬN CƠ THỂ</div>
 
             <div className="text-center text-[14px]
             lg:text-[18px]">
-                + Thêm tay/chân: + 120.000vnđ/tay/chân<br />
+                + Thêm tay/chân: + 80.000vnđ/tay/chân<br />
                 <br />
                 + Thêm char cùng loại: + 80%<br />
                 <br />
@@ -41,7 +39,7 @@ export default function Inking() {
                 <br />
                 2 headshot = 200k + 160k (80% char 1) = 360k<br />
                 <br />
-                1 headshot + 1 bust-up = 200k + 250k = 450k<br />
+                1 headshot + 1 bust-up = 200k + 260k = 460k<br />
             </div>
 
             <div className="flex gap-2 flex-wrap justify-center my-[40px]">

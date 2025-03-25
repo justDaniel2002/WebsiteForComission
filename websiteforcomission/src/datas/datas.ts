@@ -42,15 +42,15 @@ const InkingPrices = [
     },
     {
         type: 'Bust-up',
-        price: '250,000'
+        price: '260,000'
     },
     {
         type: 'Half-body',
-        price: '310,000'
+        price: '340,000'
     },
     {
         type: 'Knee-up',
-        price: '380,000'
+        price: '400,000'
     },
     {
         type: 'Fullbody',
@@ -58,7 +58,7 @@ const InkingPrices = [
     },
     {
         type: 'Background',
-        price: '+10,000 - 100,000'
+        price: '+5% ~ 30%'
     },
 ]
 
