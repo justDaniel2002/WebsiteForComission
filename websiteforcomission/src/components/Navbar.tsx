@@ -25,11 +25,12 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
   }
   return (
     <>
-      <div className={`h-screen top-0 fixed
+      <div className={`top-0 fixed
             lg:sticky
             lg:bg-white
             ${showContent ? 'bg-blue-900' : 'bg-transparent'}
-            ${showContent && 'w-[30vw]'} 
+            ${showContent && 'w-[30vw] h-screen'} 
+            lg:h-screen
             lg:w-[6vw] 
             transition-all duration-300 ease-in-out
             navStart

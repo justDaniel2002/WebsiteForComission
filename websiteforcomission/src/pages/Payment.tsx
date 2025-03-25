@@ -20,7 +20,7 @@ mb-[25px]">
                 <br />
                 + Thanh toán tối thiểu 50% sau khi chốt sketch idea.<br />
                 <br />
-                + Thanh toán nốt số còn lại sau chốt linear.<br />
+                + Thanh toán nốt số còn lại sau chốt lineart.<br />
             </div>
             <div className="font-bold mb-[20px] text-[16px]
       lg:text-[16px]">VẤN ĐỀ HỦY COMM</div>

@@ -58,7 +58,7 @@ const Banner = () => {
                     text-[3vh]
                     w-[12vh] 
                     lg:w-[17vh]">
-                        <a target="_blank" href={'https://www.facebook.com/yunshen0208'}><Icon icon="ic:baseline-facebook" /></a>
+                        <a target="_blank" href={'https://www.facebook.com/yunshen0208'}><Icon onClick={() => window.open('https://www.facebook.com/yunshen0208')} icon="ic:baseline-facebook" /></a>
                         <a target="_blank" href={'https://www.instagram.com/zunxennn/'}><Icon icon="lets-icons:insta" /></a>
                         <a target="_blank" href={'https://x.com/zunxennn?s=21'}><Icon icon="prime:twitter" /></a>
                     </div>

@@ -29,7 +29,7 @@ export default function Home() {
       mb-[25px]">
         ✔️ Only inking / B&W / Monotone<br />
         <br />
-        ✔️ Fanart, OCxCharxOC, BL, GL, BG, R16, R18,...etc.<br />
+        ✔️ Fanart, OCxCharxOC, BL, GL, BG, R16,...etc.<br />
         <br />
         ✔️ Furry, trung niên, size gap, background đơn giản,…etc.<br />
         <br />
