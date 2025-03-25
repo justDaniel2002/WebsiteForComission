@@ -90,6 +90,13 @@
     font-style: italic;
 }
 
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 div,
 h1,
 h2,

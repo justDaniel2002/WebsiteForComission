@@ -10,7 +10,7 @@ export default function Inking() {
       }, []);
 
     return (
-        <div>
+        <div className="kaushan-script-regular">
 
             <div className="my-[30px] text-center text-[20px] tracking-wider">BẢNG GIÁ</div>
 

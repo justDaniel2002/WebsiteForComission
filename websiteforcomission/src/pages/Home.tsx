@@ -14,7 +14,7 @@ export default function Home() {
       my-[20px]">• T.O.S</div>
 
       <div className="font-bold mb-[20px] text-[15px]
-      lg:text-[18px]">A. Lưu ý chung</div>
+      lg:text-[18px]">A. LƯU Ý CHUNG</div>
 
       <div className="lg:text-[16px]
       mb-[25px]">
@@ -34,8 +34,8 @@ export default function Home() {
         ✔️ Furry, trung niên, size gap, background đơn giản,…etc.<br />
         <br />
         ✖️ Mecha, người già, vẽ lại từ người thật, background quá phức tạp.</div>
-      <div className="font-bold mb-[20px] text-[13px]
-      lg:text-[16px]">- Trình tự các bước: Sketch idea - Sketch details - Lineart - Full</div>
+      <div className="font-bold mb-[20px] text-[16px]
+      lg:text-[18px]">- Trình tự các bước: Sketch idea - Sketch details - Lineart - Full</div>
       <div className="lg:text-[16px]
       mb-[25px]">
         - Mình sẽ từ chối những đơn vượt quá khả năng của mình để đảm bảo chất lượng comm.<br />
@@ -46,8 +46,8 @@ export default function Home() {
       </div>
       <div className="font-bold mb-[20px] text-[15px]
       lg:text-[18px]">C. VỀ KHÁCH HÀNG:</div>
-      <div className="font-bold mb-[20px] text-[13px]
-      lg:text-[16px]">- Vui lòng gửi brief chi tiết bao gồm:</div>
+      <div className="font-bold mb-[20px] text-[16px]
+      lg:text-[18px]">- Vui lòng gửi brief chi tiết bao gồm:</div>
       <div className="lg:text-[16px]
       mb-[25px]">
         + Số char trong tranh.<br />
@@ -60,8 +60,8 @@ export default function Home() {
         <br />
         + Diễn đạt ý tưởng rõ ràng cả về tư thế, biểu cảm hay sắc thái của nhân vật. Khuyến khích có thêm hình vẽ mô tả pose (sketch người que, ref khác,…)</div>
 
-      <div className="font-bold mb-[20px] text-[13px]
-      lg:text-[16px]">- Quá trình sửa và góp ý tranh:</div>
+      <div className="font-bold mb-[20px] text-[16px]
+      lg:text-[18px]">- Quá trình sửa và góp ý tranh:</div>
       <div className="lg:text-[16px]
       mb-[25px]">
         + Note rõ những điểm cần sửa. Nếu cần thiết thì có thể sửa thẳng lên comm.<br />
@@ -70,8 +70,8 @@ export default function Home() {
         <br />
         + Chỉ sửa ở bước đang thực hiện, không sửa những gì đã chốt trước đó.</div>
 
-        <div className="font-bold mb-[20px] text-[13px]
-      lg:text-[16px]">- Một vài lưu ý khác:</div>
+        <div className="font-bold mb-[20px] text-[16px]
+      lg:text-[18px]">- Một vài lưu ý khác:</div>
       <div className="lg:text-[16px]
       mb-[25px]">
         + Khi nhận được link drive, vui lòng tải ảnh về và lưu trữ trên thiết bị cá nhân. Link drive được mình lưu trữ trong 1 tháng kể từ ngày giao file cho khách, sau khoảng thời gian đó mình sẽ không chịu trách nhiệm nếu mất file.<br />
