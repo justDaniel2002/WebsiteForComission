@@ -66,8 +66,6 @@ export default function Home() {
       mb-[25px]">
         + Note rõ những điểm cần sửa. Nếu cần thiết thì có thể sửa thẳng lên comm.<br />
         <br />
-        + Note rõ những điểm cần sửa. Nếu cần thiết thì có thể sửa thẳng lên comm.<br />
-        <br />
         + Chỉ sửa ở bước đang thực hiện, không sửa những gì đã chốt trước đó.</div>
 
         <div className="font-bold mb-[20px] text-[16px]
