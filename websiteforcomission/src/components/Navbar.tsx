@@ -29,7 +29,7 @@ const Navbar = ({ direction, iconLinks }: NavbarParam) => {
             lg:sticky
             lg:bg-white
             ${showContent ? 'bg-blue-900' : 'bg-transparent'}
-            ${showContent && 'w-[30vw] h-screen'} 
+            ${showContent && 'w-[33vw] h-screen'} 
             lg:h-screen
             lg:w-[6vw] 
             transition-all duration-300 ease-in-out
