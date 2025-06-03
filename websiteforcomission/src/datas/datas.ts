@@ -1,5 +1,5 @@
 import { KeyIconPair } from "../types/types";
-import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg6, inkingimg7, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1 } from "./images";
+import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1 } from "./images";
 
 const navbarData:KeyIconPair[] = [
     {
