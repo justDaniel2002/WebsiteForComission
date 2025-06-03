@@ -43,7 +43,7 @@ export default function Inking() {
             </div>
 
             <div className="flex gap-2 flex-wrap justify-center my-[40px]">
-                {InkingImages.map(img => 
+                {InkingImages.sort(img => img.order).map(img => 
                 <div className={`${img.flexspan}`}>
                     <img src={img.img}/>
                 </div>)}

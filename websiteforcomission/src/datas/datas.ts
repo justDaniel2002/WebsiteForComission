@@ -66,82 +66,98 @@ const InkingImages = [
     {
         img:inkingimg1,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 1
     },
     {
         img:inkingimg2and1,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 1.1
     },
     {
         img:inkingimg2,
         span:1,
-        flexspan:'lg:w-2/7'
+        flexspan:'lg:w-2/7',
+        order: 2
     },
     {
         img:inkingimg3,
         span:1,
-        flexspan:'lg:w-2/7'
+        flexspan:'lg:w-2/7',
+        order: 3
     },
     {
         img:inkingimg4,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 4
     },
     {
         img:inkingimg4and1,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 4.1
     },
     {
         img:inkingimg4and2,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 4.2
     },
     {
         img:inkingimg5,
         span:2,
-        flexspan:'lg:w-2/7'
+        flexspan:'lg:w-2/7',
+        order: 5
     },
     {
         img:inkingimg5and1,
         span:1,
-        flexspan:'lg:w-2/7'
+        flexspan:'lg:w-2/7',
+        order: 5.1
     },
     {
         img:inkingimg8,
         span:1,
-        flexspan:'lg:w-2/7'
+        flexspan:'lg:w-2/7',
+        order: 8
     },
     {
         img:inkingimg9,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 9
     },
     {
         img:inkingimg10,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 10
     },
     {
         img:inkingimg11,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 11
     },
     {
         img:inkingimg12,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 12
     },
     {
         img:inkingimg13,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 13
     },
     {
         img:inkingimg14,
         span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-1/7',
+        order: 14
     },
 ]
 
