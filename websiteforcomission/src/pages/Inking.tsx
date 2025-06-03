@@ -37,9 +37,9 @@ export default function Inking() {
                 <br />
                 <span className="font-bold">Ví dụ:</span><br />
                 <br />
-                2 headshot = 200k + 160k (80% char 1) = 360k<br />
+                2 bust-up = 300k + 240k (80% char 1) = 540k<br />
                 <br />
-                1 headshot + 1 bust-up = 200k + 260k = 460k<br />
+                1 bust-up + 1 half-body = 300k + 360k = 660k<br />
             </div>
 
             <div className="flex gap-2 flex-wrap justify-center my-[40px]">

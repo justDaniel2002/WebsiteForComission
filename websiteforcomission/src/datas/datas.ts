@@ -1,5 +1,5 @@
 import { KeyIconPair } from "../types/types";
-import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg6, inkingimg7, inkingimg8, inkingimg9, inkingimg13, inkingimg14 } from "./images";
+import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg6, inkingimg7, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1 } from "./images";
 
 const navbarData:KeyIconPair[] = [
     {
@@ -37,34 +37,39 @@ const openMenu:KeyIconPair = {
 
 const InkingPrices = [
     {
-        type: 'Headshot',
-        price: '200,000'
-    },
-    {
         type: 'Bust-up',
-        price: '260,000'
+        price: '300,000'
     },
     {
         type: 'Half-body',
-        price: '340,000'
+        price: '360,000'
     },
     {
         type: 'Knee-up',
-        price: '400,000'
+        price: '450,000'
     },
     {
         type: 'Fullbody',
-        price: '450,000'
+        price: '550,000'
     },
     {
         type: 'Background',
         price: '+5% ~ 30%'
+    },
+    {
+        type: 'Private',
+        price: '+30%'
     },
 ]
 
 const InkingImages = [
     {
         img:inkingimg1,
+        span:1,
+        flexspan:'lg:w-1/7'
+    },
+    {
+        img:inkingimg2and1,
         span:1,
         flexspan:'lg:w-1/7'
     },
@@ -84,19 +89,24 @@ const InkingImages = [
         flexspan:'lg:w-1/7'
     },
     {
+        img:inkingimg4and1,
+        span:1,
+        flexspan:'lg:w-1/7'
+    },
+    {
+        img:inkingimg4and2,
+        span:1,
+        flexspan:'lg:w-1/7'
+    },
+    {
         img:inkingimg5,
         span:2,
         flexspan:'lg:w-2/7'
     },
     {
-        img:inkingimg6,
+        img:inkingimg5and1,
         span:1,
-        flexspan:'lg:w-1/7'
-    },
-    {
-        img:inkingimg7,
-        span:1,
-        flexspan:'lg:w-1/7'
+        flexspan:'lg:w-2/7'
     },
     {
         img:inkingimg8,
