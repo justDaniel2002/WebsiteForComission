@@ -52,7 +52,7 @@ export default function Home() {
       mb-[25px]">
         + Số char trong tranh.<br />
         <br />
-        + Thể loại cho từng char (headshot, halfbody, fullbody,…).<br />
+        + Thể loại cho từng char (bust-up, halfbody, fullbody,…).<br />
         <br />
         + Ref char: Yêu cầu chi tiết, cụ thể từng đặc điểm. Nếu là fanart thì vui lòng ghi rõ tên char và tác phẩm gốc để mình có thể chủ động tìm thêm ref.<br />
         <br />
