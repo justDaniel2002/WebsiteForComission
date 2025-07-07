@@ -50,7 +50,12 @@ const InkingPrices = [
     },
     {
         type: 'Fullbody',
-        price: '550,000'
+        price: '550,000',
+        bold: true
+    },
+    {
+        type: 'Detail',
+        price: '+5% ~ 70%'
     },
     {
         type: 'Background',
@@ -61,6 +66,7 @@ const InkingPrices = [
         price: '+30%'
     },
 ]
+
 
 const InkingImages = [
     {

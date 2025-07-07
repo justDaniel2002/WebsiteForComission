@@ -21,8 +21,8 @@ export default function Inking() {
                 <div className="border-b-2 pb-4 text-center border-black font-medium">Type</div>
                 <div className="border-b-2 pb-4 text-center border-black font-medium">Price</div>
                 {InkingPrices.map(price => <>
-                    <div className="text-center font-light border-b p-2">{price.type}</div>
-                    <div className="text-center font-light border-b p-2">{price.price}</div></>)}
+                    <div className={`text-center font-light ${price?.bold?'border-b-2':'border-b'} p-2`}>{price.type}</div>
+                    <div className={`text-center font-light ${price?.bold?'border-b-2':'border-b'} p-2`}>{price.price}</div></>)}
             </div>
 
             <div className="my-[30px] text-center text-[20px] tracking-wider">THÊM BỘ PHẬN CƠ THỂ</div>
