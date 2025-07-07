@@ -54,8 +54,8 @@ const InkingPrices = [
         bold: true
     },
     {
-        type: 'Detail',
-        price: '+5% ~ 70%'
+        type: 'Details',
+        price: '+5% ~ 70% (char)'
     },
     {
         type: 'Background',
