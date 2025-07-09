@@ -59,7 +59,7 @@ const InkingPrices = [
     },
     {
         type: 'Background',
-        price: '+5% ~ 30%'
+        price: '+5% ~ 50%'
     },
     {
         type: 'Private',
