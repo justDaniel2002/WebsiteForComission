@@ -47,7 +47,7 @@ mb-[25px]">
 
             <div className="lg:text-[16px]
 mb-[25px]">
-                - Cọc trước 100k/tranh và gửi brief để giữ slot. Khi đến lượt mình sẽ chủ động liên lạc với bạn để chạy comm (thường không quá 2 tháng). Chỉ ghi nhận slot wl khi đã chuyển cọc.                <br />
+                - Cọc trước 100k/tranh và gửi brief để giữ slot. Khi đến lượt mình sẽ chủ động liên lạc với bạn để chạy comm. Chỉ ghi nhận slot wl khi đã chuyển cọc.                <br />
                 <br />
                 - Huỷ trong thời gian chờ = mất cọc.<br />
                 <br />
