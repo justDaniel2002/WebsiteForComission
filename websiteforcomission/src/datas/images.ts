@@ -18,6 +18,10 @@ import inkingImg11 from '../assets/inkings/InkingImg11.jpg'
 import inkingImg12 from '../assets/inkings/InkingImg12.jpg'
 import inkingImg13 from '../assets/inkings/InkingImg13.jpg'
 import inkingImg14 from '../assets/inkings/InkingImg14.jpg'
+import inkingImga8d from '../assets/inkings/3546b687359c83c2da8d.jpg'
+import inkingImg030 from '../assets/inkings/a1121c3a9f21297f7030.jpg'
+import inkingImg439 from '../assets/inkings/7a594833cb287d762439.jpg'
+import inkingImg742 from '../assets/inkings/b0566b48e8535e0d0742.jpg'
 
 
 
@@ -25,6 +29,10 @@ import inkingImg14 from '../assets/inkings/InkingImg14.jpg'
 const banner = bannerImage
 const snowflake = snowflakePng
 
+const InkingImg742 = inkingImg742
+const InkingImg439 = inkingImg439
+const InkingImg030 = inkingImg030
+const InkingImga8d = inkingImga8d
 const inkingimg1 = inkingImg1
 const inkingimg2 = inkingImg2
 const inkingimg2and1 = inkingImg2and1
@@ -45,7 +53,8 @@ const inkingimg13 = inkingImg13
 const inkingimg14 = inkingImg14
 
 
-export {banner, snowflake,
+export {
+    banner, snowflake,
     inkingimg1,
     inkingimg2,
     inkingimg2and1,
@@ -63,5 +72,9 @@ export {banner, snowflake,
     inkingimg11,
     inkingimg12,
     inkingimg13,
-    inkingimg14
+    inkingimg14,
+    InkingImg742,
+    InkingImg439,
+    InkingImg030,
+    InkingImga8d,
 }

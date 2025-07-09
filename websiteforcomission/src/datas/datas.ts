@@ -1,21 +1,21 @@
 import { KeyIconPair } from "../types/types";
-import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1 } from "./images";
+import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1, InkingImg742, InkingImg439, InkingImg030, InkingImga8d } from "./images";
 
-const navbarData:KeyIconPair[] = [
+const navbarData: KeyIconPair[] = [
     {
-        content:"T.O.S",
-        icon:"solar:cat-bold",
-        link:"/"
+        content: "T.O.S",
+        icon: "solar:cat-bold",
+        link: "/"
     },
     {
-        content:"Payment",
-        icon:"material-symbols-light:payments-rounded",
-        link:"/payment"
+        content: "Payment",
+        icon: "material-symbols-light:payments-rounded",
+        link: "/payment"
     },
     {
-        content:"Inking Samples",
-        icon:"iconamoon:pen-fill",
-        link:"inking"
+        content: "Inking Samples",
+        icon: "iconamoon:pen-fill",
+        link: "inking"
     },
     // {
     //     content:"Chibi",
@@ -29,10 +29,10 @@ const navbarData:KeyIconPair[] = [
     // }
 ]
 
-const openMenu:KeyIconPair = {
-    content:"Menu",
-    icon:"ic:round-menu",
-    link:"#"
+const openMenu: KeyIconPair = {
+    content: "Menu",
+    icon: "ic:round-menu",
+    link: "#"
 }
 
 const InkingPrices = [
@@ -70,99 +70,124 @@ const InkingPrices = [
 
 const InkingImages = [
     {
-        img:inkingimg1,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: InkingImga8d,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 1
     },
     {
-        img:inkingimg2and1,
-        span:1,
-        flexspan:'lg:w-1/7',
-        order: 1.1
+        img: InkingImg742,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.3
     },
     {
-        img:inkingimg2,
-        span:1,
-        flexspan:'lg:w-2/7',
+        img: InkingImg439,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.2
+    },
+    {
+        img: InkingImg030,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.1
+    },
+
+    {
+        img: inkingimg1,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.4
+    },
+    {
+        img: inkingimg2and1,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.5
+    },
+    {
+        img: inkingimg2,
+        span: 1,
+        flexspan: 'lg:w-2/7',
         order: 2
     },
     {
-        img:inkingimg3,
-        span:1,
-        flexspan:'lg:w-2/7',
+        img: inkingimg3,
+        span: 1,
+        flexspan: 'lg:w-2/7',
         order: 3
     },
     {
-        img:inkingimg4,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg4,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 4
     },
     {
-        img:inkingimg4and1,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg4and1,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 4.1
     },
     {
-        img:inkingimg4and2,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg4and2,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 4.2
     },
     {
-        img:inkingimg5,
-        span:2,
-        flexspan:'lg:w-2/7',
+        img: inkingimg5,
+        span: 2,
+        flexspan: 'lg:w-2/7',
         order: 5
     },
     {
-        img:inkingimg5and1,
-        span:1,
-        flexspan:'lg:w-2/7',
+        img: inkingimg5and1,
+        span: 1,
+        flexspan: 'lg:w-2/7',
         order: 5.1
     },
     {
-        img:inkingimg8,
-        span:1,
-        flexspan:'lg:w-2/7',
+        img: inkingimg8,
+        span: 1,
+        flexspan: 'lg:w-2/7',
         order: 8
     },
     {
-        img:inkingimg9,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg9,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 9
     },
     {
-        img:inkingimg10,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg10,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 10
     },
     {
-        img:inkingimg11,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg11,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 11
     },
     {
-        img:inkingimg12,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg12,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 12
     },
     {
-        img:inkingimg13,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg13,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 13
     },
     {
-        img:inkingimg14,
-        span:1,
-        flexspan:'lg:w-1/7',
+        img: inkingimg14,
+        span: 1,
+        flexspan: 'lg:w-1/7',
         order: 14
     },
 ]
@@ -186,4 +211,4 @@ const ChibiPrices = [
     },
 ]
 
-export {navbarData, openMenu, InkingPrices, InkingImages, ChibiPrices}
+export { navbarData, openMenu, InkingPrices, InkingImages, ChibiPrices }
