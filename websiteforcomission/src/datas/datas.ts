@@ -110,7 +110,7 @@ const InkingImages = [
         img: inkingimg6_1,
         span: 1,
         flexspan: 'lg:w-1/7',
-        order: 1.6
+        order: 1.8
     },
     {
         img: inkingimg6_2,
@@ -122,7 +122,7 @@ const InkingImages = [
         img: inkingimg6_3,
         span: 1,
         flexspan: 'lg:w-1/7',
-        order: 1.8
+        order: 1.6
     },
     {
         img: inkingimg2,
