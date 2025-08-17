@@ -68,13 +68,30 @@ export default function Home() {
         <br />
         + Chỉ sửa ở bước đang thực hiện, không sửa những gì đã chốt trước đó.</div>
 
-        <div className="font-bold mb-[20px] text-[16px]
+      <div className="font-bold mb-[20px] text-[16px]
       lg:text-[18px]">- Một vài lưu ý khác:</div>
       <div className="lg:text-[16px]
       mb-[25px]">
         + Khi nhận được link drive, vui lòng tải ảnh về và lưu trữ trên thiết bị cá nhân. Link drive được mình lưu trữ trong 1 tháng kể từ ngày giao file cho khách, sau khoảng thời gian đó mình sẽ không chịu trách nhiệm nếu mất file.<br />
         <br />
         + Khi đăng tranh hãy kèm credit cho mình.</div>
+
+      <div className="text-center text-[30px]
+      lg:text-[40px] 
+      my-[20px]">• WAITLIST</div>
+
+      <div className="lg:text-[16px]
+mb-[25px]">
+        - Cọc trước 100k/tranh và gửi brief để giữ slot. Nếu chưa có brief ngay thì có thể bổ sung trong tối đa 3 tuần sau khi chuyển cọc. <span className="font-bold">Lưu ý:</span> Nếu gửi brief muộn hơn 3 tuần thì slot của bạn có thể bị đẩy xuống.<br />
+        <br />
+        - Chỉ ghi nhận slot waitlist khi đã chuyển cọc.<br />
+        <br />
+        - Thứ tự waitlist được xếp theo thứ tự thời gian nhận cọc, khi đến lượt mình sẽ chủ động liên lạc với bạn để chạy comm. (Theo dõi danh sách tiến độ comm của mình trong link mình gắn ở các bài mở comm; hoặc trong inbox trao đổi riêng khi đặt comm).<br />
+        <br />
+        - Tiền cọc sẽ được hoàn trả dưới hình thức trừ thẳng vào tổng comm kể từ khi bắt đầu chạy comm.<br />
+        <br />
+        - Huỷ trong thời gian chờ = mất cọc. Huỷ trong quá trình chạy comm thì tính theo % tiến độ (Chi tiết xem thêm trong mục Thanh Toán).<br />
+      </div>
 
     </div>
   )

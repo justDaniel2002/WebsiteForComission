@@ -1,5 +1,5 @@
 import { KeyIconPair } from "../types/types";
-import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1, InkingImg742, InkingImg439, InkingImg030, InkingImga8d } from "./images";
+import { inkingimg1, inkingimg10, inkingimg11, inkingimg12, inkingimg2, inkingimg3, inkingimg4, inkingimg5, inkingimg8, inkingimg9, inkingimg13, inkingimg14, inkingimg2and1, inkingimg4and1, inkingimg4and2, inkingimg5and1, InkingImg742, InkingImg439, InkingImg030, InkingImga8d, inkingimg6_1, inkingimg6_2, inkingimg6_3 } from "./images";
 
 const navbarData: KeyIconPair[] = [
     {
@@ -105,6 +105,24 @@ const InkingImages = [
         span: 1,
         flexspan: 'lg:w-1/7',
         order: 1.5
+    },
+    {
+        img: inkingimg6_1,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.6
+    },
+    {
+        img: inkingimg6_2,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.7
+    },
+    {
+        img: inkingimg6_3,
+        span: 1,
+        flexspan: 'lg:w-1/7',
+        order: 1.8
     },
     {
         img: inkingimg2,

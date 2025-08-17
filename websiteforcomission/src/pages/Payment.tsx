@@ -41,18 +41,7 @@ mb-[25px]">
                 - <span className="font-bold">Lưu ý khác:</span> Với những trường hợp mình gửi từ 2 sketch idea trở lên cho khách, mình có quyền tái sử dụng bản sketch bị loại vào các mục đích khác kể cả thương mại. Nếu muốn sở hữu bản sketch này thì khách cần phải mua.
             </div>
 
-            <div className="text-center text-[20px]
-      lg:text-[30px] 
-      my-[20px]">• WAITLIST</div>
-
-            <div className="lg:text-[16px]
-mb-[25px]">
-                - Cọc trước 100k/tranh và gửi brief để giữ slot. Khi đến lượt mình sẽ chủ động liên lạc với bạn để chạy comm. Chỉ ghi nhận slot wl khi đã chuyển cọc.                <br />
-                <br />
-                - Huỷ trong thời gian chờ = mất cọc.<br />
-                <br />
-                - Tiền cọc sẽ được hoàn trả dưới hình thức trừ thẳng vào tổng comm kể từ khi bắt đầu chạy comm.<br />
-            </div>
+            
 
         </div >
     )

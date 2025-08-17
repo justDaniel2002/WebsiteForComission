@@ -22,6 +22,10 @@ import inkingImga8d from '../assets/inkings/3546b687359c83c2da8d.jpg'
 import inkingImg030 from '../assets/inkings/a1121c3a9f21297f7030.jpg'
 import inkingImg439 from '../assets/inkings/7a594833cb287d762439.jpg'
 import inkingImg742 from '../assets/inkings/b0566b48e8535e0d0742.jpg'
+import inkingImg6_1 from '../assets/inkings/InkingImg6-1.jpg'
+import inkingImg6_2 from '../assets/inkings/InkingImg6-2.jpg'
+import inkingImg6_3 from '../assets/inkings/InkingImg6-3.jpg'
+
 
 
 
@@ -51,6 +55,9 @@ const inkingimg11 = inkingImg11
 const inkingimg12 = inkingImg12
 const inkingimg13 = inkingImg13
 const inkingimg14 = inkingImg14
+const inkingimg6_1 = inkingImg6_1
+const inkingimg6_2 = inkingImg6_2
+const inkingimg6_3 = inkingImg6_3
 
 
 export {
@@ -77,4 +84,7 @@ export {
     InkingImg439,
     InkingImg030,
     InkingImga8d,
+    inkingimg6_1,
+    inkingimg6_2,   
+    inkingimg6_3
 }
