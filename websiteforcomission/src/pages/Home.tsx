@@ -86,9 +86,9 @@ mb-[25px]">
         <br/>
         <span className="font-bold">- Lưu ý:</span><br/>
         <br/>
-        + Trong trường hợp sắp đến slot mà vẫn chưa có brief, mình sẽ thông báo trước khoảng 1-2 tuần để bạn chuẩn bị, khi đến slot của bạn mà vẫn chưa có brief thì thứ tự sẽ bị đẩy xuống để nhường chỗ cho các slot khác đã có brief.<br />
+        <span className="font-bold">+</span> Trong trường hợp sắp đến slot mà vẫn chưa có brief, mình sẽ thông báo trước khoảng 1-2 tuần để bạn chuẩn bị, khi đến slot của bạn mà vẫn chưa có brief thì thứ tự sẽ bị đẩy xuống để nhường chỗ cho các slot khác đã có brief.<br />
         <br/>
-        + Thời gian gửi brief muộn nhất là 02 tháng kể từ ngày đặt cọc. Sau 02 tháng, nếu vẫn không có brief thì slot của bạn được coi như huỷ ngang và mất cọc.<br/>
+        <span className="font-bold">+</span> Thời gian gửi brief muộn nhất là <span className="font-bold">02 tháng kể</span> từ ngày đặt cọc. Sau 02 tháng, nếu vẫn không có brief thì slot của bạn được coi như huỷ ngang và mất cọc.<br/>
         <br/>
         - Thứ tự waitlist được xếp theo thứ tự thời gian nhận cọc, khi đến lượt mình sẽ chủ động liên lạc với bạn để chạy comm. (Theo dõi danh sách tiến độ comm của mình trong link mình gắn ở các bài mở comm; hoặc trong inbox trao đổi riêng khi đặt comm).<br />
         <br />
