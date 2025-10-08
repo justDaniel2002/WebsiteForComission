@@ -8,7 +8,7 @@ const navbarData: KeyIconPair[] = [
         link: "/"
     },
     {
-        content: "Payment",
+        content: "Thanh Toán",
         icon: "material-symbols-light:payments-rounded",
         link: "/payment"
     },
